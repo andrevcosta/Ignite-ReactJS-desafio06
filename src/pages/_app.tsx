@@ -2,7 +2,7 @@ import { AppProps } from 'next/app';
 import { ChakraProvider } from '@chakra-ui/react';
 import { theme } from '../styles/theme';
 
-import '../styles/swiper.css';
+import '../../src/components/Slider/swiper.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
