@@ -7,7 +7,7 @@ import { ContinentInfo } from '../../components/ContinentInfo/ContinentInfo';
 import { CityInfo } from '../../components/ContinentInfo/CityInfo';
 
 import londonImg from '../../../public/images/Europe/london-image.png';
-import franceImg from '../../../public/images/Europe/paris-image.png';
+import parisImg from '../../../public/images/Europe/paris-image.png';
 import romeImg from '../../../public/images/Europe/rome-image.png';
 import pragueImg from '../../../public/images/Europe/prague-image.png';
 import amsterdamImg from '../../../public/images/Europe/amsterdam-image.png';
@@ -74,7 +74,7 @@ export default function Europe() {
 
           <SimpleGrid minChildWidth="256px" gap="4" alignItems="center">
             <Flex flexDirection="column" w="256px">
-              <LondonImage src={londonImg} alt="London" h="173px" w="256px" />
+              <LondonImage src={londonImg} alt="Londres" h="173px" w="256px" />
 
               <CityInfo
                 cityName="Londres"
@@ -84,7 +84,7 @@ export default function Europe() {
             </Flex>
 
             <Flex flexDirection="column" w="256px">
-              <ParisImage src={franceImg} alt="London" h="173px" w="256px" />
+              <ParisImage src={parisImg} alt="Paris" h="173px" w="256px" />
 
               <CityInfo
                 cityName="Paris"
@@ -94,13 +94,13 @@ export default function Europe() {
             </Flex>
 
             <Flex flexDirection="column" w="256px">
-              <RomeImage src={romeImg} alt="London" h="173px" w="256px" />
+              <RomeImage src={romeImg} alt="Roma" h="173px" w="256px" />
 
               <CityInfo cityName="Roma" countryName="Itália" countryCode="IT" />
             </Flex>
 
             <Flex flexDirection="column" w="256px">
-              <PragueImage src={pragueImg} alt="London" h="173px" w="256px" />
+              <PragueImage src={pragueImg} alt="Praga" h="173px" w="256px" />
 
               <CityInfo
                 cityName="Praga"
@@ -112,7 +112,7 @@ export default function Europe() {
             <Flex flexDirection="column" w="256px">
               <AmsterdamImage
                 src={amsterdamImg}
-                alt="London"
+                alt="Amsterdã"
                 h="173px"
                 w="256px"
               />
