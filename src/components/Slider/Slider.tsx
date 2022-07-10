@@ -18,6 +18,7 @@ export function Slider() {
           backgroundImage="url('/images/NorthAmerica/northamerica-slider.jpg')"
           heading="América do Norte"
           text="O novo mundo."
+          href="/north-america"
         />
       </SwiperSlide>
 
@@ -26,6 +27,7 @@ export function Slider() {
           backgroundImage="url('/images/SouthAmerica/southamerica-slider.jpg')"
           heading="América do Sul"
           text="Lar da floresta amazônica."
+          href="/south-america"
         />
       </SwiperSlide>
 
@@ -34,6 +36,7 @@ export function Slider() {
           backgroundImage="url('/images/Asia/asia-slider.jpg')"
           heading="Ásia"
           text="O maior dos continentes."
+          href="/asia"
         />
       </SwiperSlide>
 
@@ -42,6 +45,7 @@ export function Slider() {
           backgroundImage="url('/images/Africa/africa-slider.jpg')"
           heading="África"
           text="O continente mãe."
+          href="/africa"
         />
       </SwiperSlide>
 
@@ -50,6 +54,7 @@ export function Slider() {
           backgroundImage="url('/images/Europe/europe-slider.png')"
           heading="Europa"
           text="O continente mais antigo."
+          href="/europe"
         />
       </SwiperSlide>
 
@@ -58,6 +63,7 @@ export function Slider() {
           backgroundImage="url('/images/Oceania/oceania-slider.jpg')"
           heading="Oceania"
           text="O Novíssimo Mundo."
+          href="/oceania"
         />
       </SwiperSlide>
     </Swiper>
